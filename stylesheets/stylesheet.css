@@ -50,10 +50,10 @@ Theme Styles
 
 body {
   box-sizing: border-box;
-  color:#373737;
+  color: #999999;
   background: #212121;
-  font-size: 16px;
-  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Pontano Sans', sans-serif;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -61,14 +61,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
+  color:#3A3A3C;
+  font-family: 'Pontano Sans', sans-serif;
+  letter-spacing: 0px;
 }
 
 h1 {
   font-size: 36px;
   font-weight: 700;
+  letter-spacing: 3px;
+  display: block;
 }
 
 h2 {
@@ -98,7 +100,7 @@ p {
 }
 
 footer p {
-  color: #f2f2f2;
+  color: #B8D8DA;
 }
 
 a {
@@ -121,7 +123,7 @@ a {
 a:hover, a:focus {text-decoration: underline;}
 
 footer a {
-  color: #F2F2F2;
+  color: #B8D8DA;
   text-decoration: underline;
 }
 
@@ -162,7 +164,7 @@ pre, code {
   color: #222;
   background-color: #fff;
 
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: 'Pontano Sans', sans-serif;
   font-size: 14px;
 
   border-radius: 2px;
@@ -240,7 +242,7 @@ table {
  }
 
 th {
-  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Pontano Sans', sans-serif;
   padding: 10px;
   background: #373737;
   color: #fff;
@@ -271,6 +273,7 @@ Full-Width Styles
   margin: 0 auto;
 }
 
+
 #forkme_banner {
   display: block;
   position: absolute;
@@ -293,6 +296,9 @@ Full-Width Styles
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
+  height: 500px;
+  display:inline-block;
+  vertical-align:middle;
 }
 
 #header_wrap .inner {
@@ -323,6 +329,7 @@ Full-Width Styles
   right: 0;
   height: 70px;
   background: url('../images/icon_download.png') no-repeat 0% 90%;
+
 }
 
 .zip_download_link {
@@ -334,6 +341,7 @@ Full-Width Styles
   overflow: hidden;
   background: url(../images/sprite_download.png) no-repeat bottom left;
 }
+
 
 .tar_download_link {
   display: block;
@@ -370,6 +378,7 @@ Full-Width Styles
 
 
 
+
 /*******************************************************************************
 Small Device Styles
 *******************************************************************************/
@@ -378,6 +387,8 @@ Small Device Styles
   body {
     font-size:14px;
   }
+
+
 
   #downloads {
     display: none;
